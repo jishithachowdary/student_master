@@ -1,6 +1,6 @@
 const express=require("express");
 const app=express();
-const port=process.enu.PORT || 5000;
+const port=process.env.PORT || 5000;
 const mongodb=require("mongodb");
 const mongoClient=mongodb.MongoClient;
 const dburl = "mongodb+srv://guvi:jishitha@cluster.jnc7z.mongodb.net/guvi?retryWrites=true&w=majority";
